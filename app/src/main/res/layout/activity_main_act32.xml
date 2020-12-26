@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:orientation="vertical"
+    tools:context=".MainAct32">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/travel" />
+
+    <TextView
+        android:id="@+id/helloo"
+        android:layout_width="match_parent"
+        android:layout_height="446dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#3C3F41"
+        android:fontFamily="@font/ans"
+        android:text="Hello Beautiful"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#EF9898"
+        android:textSize="60dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
